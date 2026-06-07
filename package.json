@@ -1,0 +1,26 @@
+{
+  "name": "clack-terminal-typescript-crud-localdb",
+  "version": "1.0.0",
+  "description": "Use of clack with Typescript CRUD app",
+  "keywords": [
+    "clack",
+    "typescript",
+    "crud",
+    "terminal"
+  ],
+  "homepage": "https://github.com/gusanchefullstack/clack-terminal-typescript-crud-localdb#readme",
+  "bugs": {
+    "url": "https://github.com/gusanchefullstack/clack-terminal-typescript-crud-localdb/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gusanchefullstack/clack-terminal-typescript-crud-localdb.git"
+  },
+  "license": "MIT",
+  "author": "Gustavo Sanchez <gustavosanchezgalarza@gmail.com>",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
