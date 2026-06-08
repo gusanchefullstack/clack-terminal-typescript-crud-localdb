@@ -5,7 +5,7 @@ export class User {
     }
 
     printDetails() {
-        console.log(`id: ${this.id} \tName: ${this.firstname} ${this.lastName} \tUsername: ${this.username} \tEmail: ${this.email} \tPhone: ${this.phoneNumber} \tActive: ${this.active}`)
+        console.log(`\tid: ${this.id} \tName: ${this.firstname} ${this.lastName} \tUsername: ${this.username} \tEmail: ${this.email} \tPhone: ${this.phoneNumber} \tActive: ${this.active}`)
     }
 }
 

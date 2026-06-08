@@ -12,7 +12,7 @@ export class UserCollection {
         dB.forEach(entry => this.itemMap.set(entry.id, entry))
     }
 
-    addUser(firstname: string, lastName: string, username: string, password: string, email: string, phoneNumber: string, status: boolean) {
+    addUser(firstname: string, lastName: string, username: string, password: string, email: string, phoneNumber: string, status: boolean = true) {
         const userId =  uuidv4()
         this.itemMap.set(userId, new User(userId, firstname, lastName, username, password, email, phoneNumber, status))
         return userId;
